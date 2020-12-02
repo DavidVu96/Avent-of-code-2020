@@ -29,7 +29,7 @@ class Day1 {
             } else if (sum < 2020) {
                 deque.removeFirst();
             } else {
-                System.out.println(deque.getFirst() * deque.getLast());
+                System.out.println(deque.getFirst() * deque.getLast()); //539851
                 break;
             }
         }
